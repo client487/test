@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Crash Notes</title>
+  <title>Crash?</title>
 </head>
 <body>
   <pre id="text"></pre>
   <script>
-    let spam = "🏴‍☠️🇺🇳🇹🇲𓂀𓃦𓆏𓅓𓅷𓆈𓆉𓆘".repeat(100000);
-    document.getElementById("text").innerText = spam;
+    let spam = "🏴‍☠️🇺🇳🇹🇲🇽🇰🇺🇾🇺🇸🇺🇿🀄🎰🎲🔞🧿📵🔀" +
+                "𓂀𓃦𓆏𓅓𓅷𓆈𓆉𓆘𓂩𓂺" +
+                "జ్ఞ‌ా" +
+                "﷽".repeat(100) +
+                "⁣⁤​‌‍".repeat(100) +
+                "𝒜𝒷𝒸𝒹𝑒𝑓𝑔𝒽𝒾𝒿𝓀𝓁𝓂𝓃".repeat(100) +
+                "⠂⠄⡀⣀⣶⣿⠛⠋".repeat(100) +
+                "你好，你怎么样？我是一个机器人".repeat(100) +
+                "𐑨𐑩𐑪𐑫𐑬𐑭𐑮𐑯𐑰".repeat(100);
+    
+    document.getElementById("text").innerText = spam.repeat(1000);
   </script>
 </body>
 </html>
